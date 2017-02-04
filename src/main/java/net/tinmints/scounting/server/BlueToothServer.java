@@ -17,6 +17,8 @@ import javax.microedition.io.StreamConnectionNotifier;
 /**
  * Class that implements an SPP Server which accepts single line of message from
  * an SPP client and sends a single line of response to the client.
+ * 
+ * test comment
  */
 public class BlueToothServer extends Thread {
 
