@@ -4,6 +4,7 @@ public class ScoutData {
     private String recorder = "";
     private int matchNumber = 0;
     private int teamNumber = 0;
+    private String teamAlliance = "";
 
     private boolean autoStartInMiddle = false;
     private boolean autoCrossedLine = false;
@@ -55,7 +56,15 @@ public class ScoutData {
         this.teamNumber = teamNumber;
     }
 
-    public boolean isAutoStartInMiddle() {
+    public String getTeamAlliance() {
+		return teamAlliance;
+	}
+
+	public void setTeamAlliance(String teamAlliance) {
+		this.teamAlliance = teamAlliance;
+	}
+
+	public boolean isAutoStartInMiddle() {
         return autoStartInMiddle;
     }
 
